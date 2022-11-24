@@ -28,7 +28,7 @@
 
 }
 
-.arrow {
+.reviewArrow {
     position: absolute;
     top: 90%;
     transform: translate(0, -50%);
@@ -38,12 +38,12 @@
     cursor: pointer;
 
     &Right{
-        @extend .arrow;
+        @extend .reviewArrow;
         right: 32px;
     }
 
     &Left{
-        @extend .arrow;
+        @extend .reviewArrow;
         left: 32px;
     }
 }

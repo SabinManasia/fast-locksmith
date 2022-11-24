@@ -22,8 +22,8 @@ const ReviewComp = ({reviews}) => {
         <div className="container">
             <div >
                 <Typography className="title" variant="h2">What our clients say</Typography>
-                <div className="arrowLeft" onClick={goToPrevious}>❰</div>
-                <div className="arrowRight" onClick={goToNext}>❱</div>
+                <div className="reviewArrowLeft" onClick={goToPrevious}>❰</div>
+                <div className="reviewArrowRight" onClick={goToNext}>❱</div>
                 <Typography className="text" variant="h4">{reviews[currentIndex].text}</Typography>
                 <br/>
                 <Typography className="textAuthor" variant="h5">{reviews[currentIndex].author}</Typography>
