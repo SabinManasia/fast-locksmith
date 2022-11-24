@@ -1,0 +1,49 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #1976d2;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.text {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &Author{
+        @extend .text;
+    }
+
+}
+
+.arrow {
+    position: absolute;
+    top: 90%;
+    transform: translate(0, -50%);
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+
+    &Right{
+        @extend .arrow;
+        right: 32px;
+    }
+
+    &Left{
+        @extend .arrow;
+        left: 32px;
+    }
+}

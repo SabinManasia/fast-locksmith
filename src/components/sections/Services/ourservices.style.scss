@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: stretch;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #1e1e1e;
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #1e1e1e;
+
+
+        .item {
+            text-align: left;
+            flex-grow: 1;
+            padding: 20px;
+            max-width: 300px;
+            background-color: gainsboro;
+        }
+    }
+
+}
+

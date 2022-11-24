@@ -1,0 +1,21 @@
+.whyContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    height: 100%;
+    
+
+    .headerPage {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .bodyPage {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+}

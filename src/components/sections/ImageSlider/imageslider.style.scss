@@ -1,0 +1,34 @@
+.slider {
+    position: relative;
+    height: 100%;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 6vh;
+    color: #fc0001;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 45px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+
+    &Right{
+        @extend .arrow;
+        right: 32px;
+    }
+
+    &Left{
+        @extend .arrow;
+        left: 32px;
+    }
+}
