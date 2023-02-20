@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const Header = () => {
 
-    const [mobileNr] = useState("07311222163");
+    const [mobileNr] = useState("07XXXXXXX");
     const [buttonClicked, setButtonCliked] = useState(false);
     const [buttonLabel, setButtonLabel] = useState("CALL US");
 
