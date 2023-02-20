@@ -2,7 +2,7 @@
   "name": "locksmithapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sabinmanasia.github.io/fast-locksmith",
+  "homepage": "https://fastlocksmith.netlify.app",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
