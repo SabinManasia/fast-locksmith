@@ -28,6 +28,7 @@ const Header = () => {
                         variant='contained' 
                         startIcon={<LocalPhoneSharpIcon/>}
                         onClick={() => setButtonCliked(true)}
+                        href= "tel:+44130-888-888"
                     >
                         {buttonLabel}
                     </Button>
