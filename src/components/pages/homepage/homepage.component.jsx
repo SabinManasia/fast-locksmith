@@ -5,13 +5,14 @@ import OurServicesComp from '../../sections/Services/ourservices.component.jsx';
 import AboutUsComp from '../../sections/WhyUs/whyus.component.jsx';
 import './homepage.style.scss';
 import Background1 from '../../../imagees/image4.jpg';
+import Background2 from '../../../imagees/image1.jpg';
 
 
 const HomePage = () => {
     
     const slides = [
-        {url: Background1, title: "Emergency", text: "Emergency Locksmith Call Now"}, 
-        {url: "http://localhost:3000/Images/image2.jpg", title: "Locksmith", text: "Call"},
+        {url: Background1, title: "Emergency", text: "Emergency Locksmith Call Now", backgroundSize: "", backgroundRepeat: ""}, 
+        {url: Background2, title: "Locksmith", text: "Call", backgroundSize: "auto 100%", backgroundRepeat: "no-repeat"},
         {url: "http://localhost:3000/Images/image3.jpg", title: "Locks", text: "Now"},
     ];
 

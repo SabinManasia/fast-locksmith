@@ -24,7 +24,12 @@ const ImageSlider = ({slides}) => {
             <div className="arrowRight" onClick={goToNext}>❱</div>
             <div
                 className="slides"
-                style={{backgroundImage: `url(${slides[currentIndex].url})`}}>{slides[currentIndex].text}</div>
+                style={{backgroundImage: `url(${slides[currentIndex].url})`, 
+                        backgroundSize: slides[currentIndex].backgroundSize, 
+                        backgroundRepeat: slides[currentIndex].backgroundRepeat,
+                        backgroundColor: "#8ff0ff"}}>
+                {slides[currentIndex].text}
+            </div>
         </div>
     );
 
