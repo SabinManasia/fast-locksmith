@@ -4,12 +4,13 @@ import ReviewComp from '../../sections/Reviews/reviewcontainer.jsx';
 import OurServicesComp from '../../sections/Services/ourservices.component.jsx';
 import AboutUsComp from '../../sections/WhyUs/whyus.component.jsx';
 import './homepage.style.scss';
+import Background1 from '../../../imagees/image4.jpg';
 
 
 const HomePage = () => {
     
     const slides = [
-        {url: "http://localhost:3000/Images/image1.jpg", title: "Emergency", text: "Emergency Locksmith Call Now"},
+        {url: Background1, title: "Emergency", text: "Emergency Locksmith Call Now"}, 
         {url: "http://localhost:3000/Images/image2.jpg", title: "Locksmith", text: "Call"},
         {url: "http://localhost:3000/Images/image3.jpg", title: "Locks", text: "Now"},
     ];
