@@ -5,7 +5,7 @@ const OurServicesComp = () => {
 
     return(
         <div className="header">
-            <Typography variant="h1" style={{flexGrow: 4, color: "white"}}>OUR SERVICES</Typography>
+            <Typography variant="h2" style={{flexGrow: 3, color: "white"}}>OUR SERVICES</Typography>
             <div className="services">
                 <Paper className="item">
                     <Typography variant="h2">
