@@ -22,7 +22,7 @@ const Header = () => {
         <div>
             <AppBar>
                 <Toolbar>
-                    <Typography sx={{ flexGrow: 1 }} variant='h4' >Fast Locksmith</Typography>
+                    <Typography sx={{ flexGrow: 1 }} variant='h5' >Fast Locksmith</Typography>
                     <Button 
                         color="success" 
                         variant='contained' 
