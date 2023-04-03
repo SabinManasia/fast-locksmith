@@ -8,9 +8,11 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    text-align: center;
+    text-align: left;
     font-size: 6vh;
-    color: #fc0001;
+    font-weight: 700;
+    color: #00f85f;
+    padding-left: 20px;
 }
 
 .arrow {
@@ -18,7 +20,7 @@
     top: 50%;
     transform: translate(0, -50%);
     font-size: 45px;
-    color: black;
+    color: white;
     z-index: 1;
     cursor: pointer;
 

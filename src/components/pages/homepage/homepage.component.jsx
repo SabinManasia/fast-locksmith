@@ -11,9 +11,9 @@ import Background2 from '../../../imagees/image1.jpg';
 const HomePage = () => {
     
     const slides = [
-        {url: Background1, title: "Emergency", text: "Emergency Locksmith Call Now", backgroundSize: "", backgroundRepeat: ""}, 
-        {url: Background2, title: "Locksmith", text: "Call", backgroundSize: "auto 100%", backgroundRepeat: "no-repeat"},
-        {url: "http://localhost:3000/Images/image3.jpg", title: "Locks", text: "Now"},
+        {url: Background1, title: "Emergency", text: `Emergency Locksmith`, backgroundSize: "", backgroundRepeat: ""}, 
+        {url: Background2, title: "Locksmith", text: "Call anytime", backgroundSize: "auto 100%", backgroundRepeat: "no-repeat"},
+        //{url: "http://localhost:3000/Images/image3.jpg", title: "Locks", text: "Now"},
     ];
 
     const reviews = [

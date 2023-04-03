@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const Header = () => {
 
-    const [mobileNr] = useState("07XXXXXXX");
+    const [mobileNr] = useState("07443097551");
     const [buttonClicked, setButtonCliked] = useState(false);
     const [buttonLabel, setButtonLabel] = useState("CALL US");
 
@@ -22,13 +22,13 @@ const Header = () => {
         <div>
             <AppBar>
                 <Toolbar>
-                    <Typography sx={{ flexGrow: 1 }} variant='h5' >Fast Locksmith</Typography>
+                    <Typography sx={{ flexGrow: 1 }} variant='h4' >Fast Locksmith</Typography>
                     <Button 
                         color="success" 
                         variant='contained' 
                         startIcon={<LocalPhoneSharpIcon/>}
                         onClick={() => setButtonCliked(true)}
-                        href= "tel:+44130-888-888"
+                        href= "tel:+447443097551"
                     >
                         {buttonLabel}
                     </Button>

@@ -29,6 +29,8 @@ const ImageSlider = ({slides}) => {
                         backgroundRepeat: slides[currentIndex].backgroundRepeat,
                         backgroundColor: "#8ff0ff"}}>
                 {slides[currentIndex].text}
+                <br/>
+                <div>07443097551</div>
             </div>
         </div>
     );
